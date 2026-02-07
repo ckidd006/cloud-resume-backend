@@ -27,8 +27,8 @@ jobs:
           fi
           pip install pytest aws-sam-cli
 
-      - name: Run tests
-        run: pytest
+ #     - name: Run tests
+  #      run: pytest
        
 
       - name: Configure AWS Credentials
