@@ -12,7 +12,7 @@ My personal project: A secure website hosting my resume, built on AWS. It shows 
 - Updates itself when I change code (automation via GitHub).
 
 
-  Tools I Used & Why:
+Tools I Used & Why:
 
 - Front-End: HTML/CSS/JS on Visual Studio. Why? Makes the site look good and work on phones. JS calls a secure API for the counter (no hacking risk).
 - Hosting: AWS S3 (stores files cheaply), CloudFront (makes it fast & secure with HTTPS). DNS Management.
@@ -21,7 +21,8 @@ My personal project: A secure website hosting my resume, built on AWS. It shows 
 - Security Focus: HTTPS everywhere, no direct database access, least permissions.
 
 
-  What I Learned:
+What I Learned:
+  
 - Serverless is cheap and secure, but setup needs care (IAM roles).
 - CI/CD saves time—push code, it deploys auto.
 - Important to secure
